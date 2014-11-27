@@ -1,0 +1,21 @@
+safe: true
+lsi: false
+highlighter: pygments
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Roger Suen"
+  -
+    scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project" # overrides previous default layout

@@ -12,31 +12,31 @@ When you deploy a project into an ADF Library JAR, JDeveloper packages artifacts
 Here's the entries for the `adflibResources` servlet:
 
 ```
-  <servlet>
-    <servlet-name>adflibResources</servlet-name>
-    <servlet-class>oracle.adf.library.webapp.ResourceServlet</servlet-class>
-  </servlet>
+<servlet>
+  <servlet-name>adflibResources</servlet-name>
+  <servlet-class>oracle.adf.library.webapp.ResourceServlet</servlet-class>
+</servlet>
 
-  <servlet-mapping>
-    <servlet-name>adflibResources</servlet-name>
-    <url-pattern>/adflib/*</url-pattern>
-  </servlet-mapping>
+<servlet-mapping>
+  <servlet-name>adflibResources</servlet-name>
+  <url-pattern>/adflib/*</url-pattern>
+</servlet-mapping>
 ```
 
 And the entries for the `ADFLibraryFilter`:
 
 ```
-  <filter>
-    <filter-name>ADFLibraryFilter</filter-name>
-    <filter-class>oracle.adf.library.webapp.LibraryFilter</filter-class>
-  </filter>
+<filter>
+  <filter-name>ADFLibraryFilter</filter-name>
+  <filter-class>oracle.adf.library.webapp.LibraryFilter</filter-class>
+</filter>
 
-  <filter-mapping>
-    <filter-name>ADFLibraryFilter</filter-name>
-    <url-pattern>/*</url-pattern>
-    <dispatcher>FORWARD</dispatcher>
-    <dispatcher>REQUEST</dispatcher>
-  </filter-mapping>
+<filter-mapping>
+  <filter-name>ADFLibraryFilter</filter-name>
+  <url-pattern>/*</url-pattern>
+  <dispatcher>FORWARD</dispatcher>
+  <dispatcher>REQUEST</dispatcher>
+</filter-mapping>
 ```
 Usually, JDeveloper can add these entries automatically if it's aware that you are using a component from an ADF Library JAR, for example, when you use the wizard to create a page based on a page template exposed from the JAR. If for some reason, these entries are not there, you can surely manually add them there.
 
@@ -44,24 +44,24 @@ At runtime, when the web application serves a request, if a resource is not foun
 
 `",png,jpg,jpeg,gif,js,css,htm,html,"`
 
-So, for any other type of resources, you will end up with a 404 error. Fortunately, it's allowed to customize this list. For the Bootstrap font files case, you can customize the extension list with the `include-extension-list` initialization parameter of the `ADFLibraryFilter` like this:
+So, for any other type of resources, you will end up with a `404` error. Fortunately, it's allowed to customize this list. For the Bootstrap font files case, you can customize the extension list with the `include-extension-list` initialization parameter of the `ADFLibraryFilter` like this:
 
 ```
-  <filter>
-    <filter-name>ADFLibraryFilter</filter-name>
-    <filter-class>oracle.adf.library.webapp.LibraryFilter</filter-class>
-    <init-param>
-      <param-name>include-extension-list</param-name>
-      <param-value>,png,jpg,jpeg,gif,js,css,htm,html,eot,ttf,woff,svg,</param-value>
-    </init-param>
-   </filter>
+<filter>
+  <filter-name>ADFLibraryFilter</filter-name>
+  <filter-class>oracle.adf.library.webapp.LibraryFilter</filter-class>
+  <init-param>
+    <param-name>include-extension-list</param-name>
+    <param-value>,png,jpg,jpeg,gif,js,css,htm,html,eot,ttf,woff,svg,</param-value>
+  </init-param>
+ </filter>
 ```
 
 **Chinese Summary:** 为了加载 ADF 库文档中的资源，Web 应用程序的 `web.xml` 文件需要配置 `adflibResources` servlet 以及 `ADFLibraryFilter` 过滤器。对于特殊文件类型的资源，例如字体文件等，还需要配置 `ADFLibraryFilter` 的初始化参数以允许其处理此类文件。
 
 **Sample Application:**
 
-* https://github.com/adfsamples/ADFLibraryResources
+* <https://github.com/adfsamples/ADFLibraryResources>
 * [Download ZIP](https://github.com/adfsamples/ADFLibraryResources/archive/master.zip)
 
 **Environment:**

@@ -1,0 +1,38 @@
+---
+layout: master
+---
+
+{% include header.html %}
+
+{% include blog-header.html %}
+
+<div class="container rs-content-container rs-post-container">
+  <div class="row">
+    <div class="col-md-9">
+
+      <!-- begin: rs-post -->
+      <div class="rs-post">
+
+        <h1>{{ page.title }}</h1>
+
+{% include post-meta.html %}
+
+        <!-- begin: rs-post-content -->
+        <div class="rs-post-content">
+
+{{ content }}
+
+        </div><!--/ .rs-post-content -->
+
+{% include post-footer.html %}
+
+      </div><!--/ .rs-post -->
+    </div>
+
+    <!-- begin: sidebar -->
+    <div class="col-md-3">
+    </div>
+    <!-- end: sidebar -->
+
+  </div>
+</div>

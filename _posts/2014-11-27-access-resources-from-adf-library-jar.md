@@ -57,7 +57,9 @@ So, for any other type of resources, you will end up with a `404` error. Fortuna
  </filter>
 ```
 
-**Chinese Summary:** 为了加载 ADF 库文档中的资源，Web 应用程序的 `web.xml` 文件需要配置 `adflibResources` servlet 以及 `ADFLibraryFilter` 过滤器。对于特殊文件类型的资源，例如字体文件等，还需要配置 `ADFLibraryFilter` 的初始化参数以允许其处理此类文件。
+**Chinese Summary:** 
+
+为了加载 ADF 库文档中的资源，Web 应用程序的 `web.xml` 文件需要配置 `adflibResources` servlet 以及 `ADFLibraryFilter` 过滤器。对于特殊文件类型的资源，例如字体文件等，还需要配置 `ADFLibraryFilter` 的初始化参数以允许其处理此类文件。
 
 **Sample Application:**
 

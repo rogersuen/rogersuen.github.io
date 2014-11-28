@@ -1,6 +1,9 @@
 ---
 title: ADF - Access resources from an ADF Library JAR
 tags: ['ADF Library JAR', 'Deployment', 'ADF', 'ADFSamples']
+excerpt: 
+  To load resources of a reusable component packaged in an ADF Library JAR, the web.xml of the consuming web application must be extended with the entries of filter and servlet to serve the resources from the JAR. For resources other than commonly used file types, like font files (eot, rtf, off, svg), you need configure include extension list for the filter.
+
 ---
 Oracle ADF and JDeveloper support packaging a reusable component and its resources into an ADF Library JAR. When the component is consumed by a web application, ADF and JDeveloper automatically make the resources of component available at runtime to serve requests. At most time, you don't have to care about the detail behind the scene. But if the resources (`css`, `js`, `png`, `jpeg`, etc.) cannot be served from the ADF Library JAR, or only some special resources cannot be accessed, then this post is probably for you. As using bundled font files in a web application is getting so popular these days (e.g. Bootstrap uses font files for its glyph icons), I guess you are reading this post probably because of missing font files (`eot`,`ttf`,`woff`,`svg`).
 

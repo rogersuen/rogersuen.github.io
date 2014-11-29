@@ -1,0 +1,13 @@
+<!-- .rs-blog-updates -->
+<div class="rs-home-updates-blog">
+	<h2>From the Blog</h2>
+	<ul>
+		{% for post in site.posts limit:2 %}
+		<li>
+			<h3 class="rs-post-title"><a href="{{ post.url }}" class="rs-link">{{ post.title }}</a></h3>
+			<span class="rs-post-date">{{ post.date | date: "%A, %B %d, %Y" }}</span>
+			<p class="rs-post-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords:40 }} <a href="{{ post.url }}" class="rs-link rs-more"></a></p>
+		</li>
+		{% endfor %}
+	</ul>
+</div><!--/ .rs-blog-updates -->

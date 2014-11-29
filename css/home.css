@@ -9,3 +9,51 @@
 	border-color: #fff;
 	background-color: #fff;
 }
+
+.rs-home-updates {
+	font-weight: 200;
+}
+
+.rs-home-updates h2 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.rs-home-updates-blog ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rs-home-updates-blog h3.rs-post-title {
+	margin-bottom: 2px;
+	font-size: 16px; 
+	font-weight: 200;
+}
+
+.rs-home-updates-blog a.rs-link {
+	color: #bb3500;
+}
+
+.rs-home-updates-blog a:hover {
+	color: #f34500;
+	text-decoration: none;
+}
+
+.rs-home-updates-blog .rs-post-date {
+	color: #999;
+	font-weight: 300;
+}
+
+.rs-home-updates-blog p {
+	margin: 15px 0;
+}
+
+.rs-home-updates-blog .rs-more {
+	padding-left: 10px;
+}
+
+.rs-home-updates-blog .rs-more:after {
+	content: "Read";
+}

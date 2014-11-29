@@ -56,3 +56,40 @@
 .jumbotron p {
 	margin-bottom: 20px;
 }
+
+/*
+ * footer
+ */
+.rs-footer {
+	min-height: 120px;
+	margin-top: 50px;
+}
+
+.rs-footer .container .row {
+	border-top: 1px solid #eee;
+}
+
+.rs-footer ul {
+	display: block;
+	margin: 0;
+	padding: 5px 0;
+}
+
+.rs-footer ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px 0 0;
+	padding: 5px 0;
+	font-size: 13px;
+	color: #999;
+}
+
+.rs-footer ul li a.link {
+	color: #aaa;
+}
+
+.rs-footer ul li a:hover {
+	color: #666;
+	text-decoration: none;
+}
+/* end of footer */

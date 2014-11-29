@@ -1,3 +1,7 @@
+.rs-slim {
+	font-weight: 100;
+}
+
 .navbar-brand {
 	padding-top: 6px;
 	padding-bottom: 6px;
@@ -37,16 +41,25 @@
 	color: #2e8dd7;
 }
 
+.jumbotron {
+	color: #fff;
+	background-color: #1f75b8;
+	margin-top: -20px;
+	font-size: 48px;
+}
+
+.jumbotron h1 {
+	font-size: 48px;
+}
+
 .rs-content-home .jumbotron {
 	margin-top: -20px;
 	min-height: 320px;
-	color: #fff;
-	background-color: #1097ff;
 }
 
 .rs-content-home .jumbotron h1 {
 	font-size: 48px;
-	font-weight: 300px;
+	font-weight: 200px;
 }
 
 .rs-content-home .jumbotron p {
@@ -60,19 +73,9 @@
 }
 
 .rs-content-home .jumbotron .btn:hover {
-	color: #1097ff;
+	color: #1f75b8;
 	border-color: #fff;
 	background-color: #fff;
-}
-
-.rs-content-header {
-	margin-top: -20px;
-	color: #fff;
-	background-color: #28a0ff;
-}
-
-.rs-content-header h1 {
-	font-size: 48px;
 }
 
 .rs-post h1 {

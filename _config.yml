@@ -9,14 +9,19 @@ defaults:
   -
     scope:
       path: ""
+    values:
+      author: "Roger Suen"
+
+  -
+    scope:
+      path: ""
       type: "pages"
     values:
       layout: "page"
-      author: "Roger Suen"
+
   -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      author: "Roger Suen"

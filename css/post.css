@@ -1,0 +1,52 @@
+.rs-post h1 {
+	color: #ff5a09;
+	margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.rs-post-meta {
+	margin-top: -15px;
+	margin-bottom: 15px; 	
+}
+
+.rs-post-date {
+	color: #999;
+	font-weight: 300;
+}
+
+.rs-post-author {
+	font-weight: 300;	
+}
+
+.rs-post p {
+	color: #666;
+	line-height: 24px;
+	font-weight: 300;
+}
+
+.rs-post code {
+	color: #666;
+	background-color: #f0f0f0;
+}
+
+.rs-post img {
+	display: block;
+	margin: 20px auto;
+	padding: 0px;
+	max-width: 640px;
+	background-color: #fff;
+}
+
+.rs-post pre, 
+.rs-post pre code {
+	color: #666
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.rs-post-footer {
+	margin-top: 15px;
+	margin-bottom: 15px; 	
+}
+

@@ -1,0 +1,11 @@
+.rs-content-home .jumbotron .btn {
+	color: #fff;
+	border-color: #fff;
+	background-color: transparent;
+}
+
+.rs-content-home .jumbotron .btn:hover {
+	color: #1f75b8;
+	border-color: #fff;
+	background-color: #fff;
+}

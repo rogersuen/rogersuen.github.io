@@ -1,5 +1,5 @@
 .rs-post h1 {
-	color: #ff5a09;
+	color: #ff5d1c;
 	margin-bottom: 20px;
 	font-size: 24px;
 	font-weight: 300;
@@ -8,10 +8,11 @@
 .rs-post-meta {
 	margin-top: -15px;
 	margin-bottom: 15px; 	
+	color: #999;
+	font-weight: 200;
 }
 
 .rs-post-date {
-	color: #999;
 	font-weight: 300;
 }
 
@@ -25,7 +26,7 @@
 	font-weight: 300;
 }
 
-.rs-post code {
+.rs-post p code {
 	color: #666;
 	background-color: #f0f0f0;
 }
@@ -43,6 +44,16 @@
 	color: #666
 	font-weight: 300;
 	line-height: 20px;
+}
+.rs-post strong {
+	font-weight: 500;
+}
+
+.rs-post pre {
+	border: 1px solid #eee;
+	border-radius: 0;
+	border-left: 6px solid #ff5d1c;
+	background-color: #f7f7f7;
 }
 
 .rs-post-footer {

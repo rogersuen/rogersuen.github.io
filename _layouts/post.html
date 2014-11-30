@@ -9,30 +9,36 @@ layout: master
 {% include blog-announcement.html %}
 
 <div class="container rs-content-container rs-post-container">
-  <div class="row">
+	<div class="row">
+		<div class="col-md-9">
 
-    <!-- begin: .rs-post -->
-    <div class="col-md-9 rs-post">
+			<div class="rs-post">	
+				<h1 class="rs-post-title">{{ page.title }}</h1>
 
-<h1>{{ page.title }}</h1>
+				<div class="rs-post-meta">
+					<span class="rs-post-date">{{ page.date | date: "%A, %B %d, %Y" }}</span> by
+					<span class="rs-post-author"><a href="https://www.github.com/rogersuen">Roger Suen</a></span>
+				</div><!--/ .rs-post-meta -->
 
-{% include post-meta.html %}
+				<div class="rs-post-content">
+					{{ content }}
+				</div><!--/ .rs-post-content -->
 
-<!-- begin: rs-post-content -->
-<div class="rs-post-content">
-{{ content }}
-</div><!--/ .rs-post-content -->
+				<div class="rs-post-footer">
+					{% for tag in page.tags %}
+					<span class="label label-default">{{ tag }}</span>
+					{% endfor %}
+				</div><!--/ .rs-post-footer -->
+			</div><!--/ .rs-post -->
 
-{% include post-footer.html %}
+		</div>
 
-    </div><!--/ .rs-post -->
-    
-    <!-- begin: sidebar -->
-    <div class="col-md-3 rs-sidebar">
-    </div>
-    <!-- end: sidebar -->
+		<!-- begin: sidebar -->
+		<div class="col-md-3 rs-sidebar">
+		</div>
+		<!-- end: sidebar -->
 
-  </div>
+	</div>
 </div>
 
 {% include footer.html %}

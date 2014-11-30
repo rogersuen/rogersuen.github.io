@@ -1,8 +1,32 @@
-.rs-post h1 {
-	color: #ff5d1c;
+.rs-post-listing {
+}
+
+.rs-post {
+	margin-bottom: 32px;
+}
+
+.rs-post-title {
+	color: #f34500;
 	margin-bottom: 20px;
 	font-size: 24px;
 	font-weight: 300;
+}
+
+.rs-post-title :link {
+	color: #f34500;	
+}
+
+.rs-post-title :visited {
+	color: #f34500;	
+}
+
+.rs-post-title :hover {
+	color: #ff7b47;
+	text-decoration: none;	
+}
+
+.rs-post-title :active {
+	color: #ff7b47;	
 }
 
 .rs-post-meta {

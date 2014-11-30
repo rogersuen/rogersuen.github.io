@@ -1,6 +1,7 @@
 ---
 title: Ignoring Files Specific to Oracle JDeveloper & ADF
 tags: [ADF, JDeveloper, "Version Control", Git, Subversion]
+blogger_url: /2014/10/ignoring-files-specific-to-oracle-jdev-adf.html
 excerpt: 
   Minimum list of untracked files specific to Oracle JDeveloper and ADF for the .gitignore file of Git or similar ignore files used by other version control system, such as Subversion and CVS.
 ---

@@ -1,6 +1,7 @@
 ---
-title: ADF - Access resources from an ADF Library JAR
+title: ADF - Access resources in an ADF Library JAR
 tags: ['ADF Library JAR', 'Deployment', 'ADF', 'ADFSamples']
+blogger_url: /2014/11/adf-access-resources-in-adf-library-jar.html
 excerpt: 
   To load resources of a reusable component packaged in an ADF Library JAR, the web.xml of the consuming web application must be extended with the entries of filter and servlet to serve the resources from the JAR. For resources other than commonly used file types, like font files (eot, rtf, off, svg), you need configure include extension list for the filter.
 ---

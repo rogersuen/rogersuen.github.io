@@ -1,6 +1,7 @@
 ---
 title: ADF - Package reusable components into an ADF Library JAR
 tags: ['ADF Library JAR', 'Deployment', 'Test',  'ADF', 'ADFSamples']
+blogger_url: /2014/11/adf-package-reusable-components-into-adf-library-jar.html
 excerpt: 
   Use a bare project with its project source paths pointing to the corresponding ones in the orginal project, to deploy a clean ADF Library JAR with only relevant artifacts selected by including or excluding artifacts in the bare project, making testing of reusable components as easy as usual. 
 ---

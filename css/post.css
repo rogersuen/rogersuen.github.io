@@ -85,3 +85,13 @@
 	margin-bottom: 15px; 	
 }
 
+.rs-blog-announcement .fi-social-blogger,
+.rs-post-meta .fi-social-blogger {
+	display: inline-block;
+	color: #f26300;
+	font-size: 20px;
+	padding: 0 4px;
+	line-height: 20px;
+	position: relative;
+	top: 2px;
+}

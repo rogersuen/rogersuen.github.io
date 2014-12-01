@@ -32,6 +32,20 @@ layout: master
 				</div><!--/ .rs-post-footer -->
 			</div><!--/ .rs-post -->
 
+			<div class="rs-post-pagination">
+				{% if page.previous %}
+				<a href="{{ page.previous.url }}" class="btn btn-info"><span class="rs-post-pagination-prev">Newer Post</span></a>
+				{% else %}
+				<a href="{{ page.previous.url }}" class="btn btn-info disabled"><span class="rs-post-pagination-prev">Newer Post</span></a>
+				{% endif %}
+
+				{% if page.next %}
+				<a href="{{ page.next.url }}" class="btn btn-info pull-right"><span class="rs-post-pagination-next">Older Post</span></a>
+				{% else %}
+				<a href="{{ page.next.url }}" class="btn btn-info pull-right disabled"><span class="rs-post-pagination-next">Older Post</span></a>
+				{% endif %}
+			</div><!--/ .rs-post-pagination -->
+
 		</div>
 
 		<!-- begin: sidebar -->

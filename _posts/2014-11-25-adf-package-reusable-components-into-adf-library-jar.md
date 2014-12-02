@@ -11,7 +11,7 @@ I'm not going to introduce how to package reusable ADF components into an ADF Li
 
 In this post, taking page templates as an example, I'll be talking about a practical approach to package only required artifacts into an ADF Library JAR, leaving irrelevant files out of it, and still allowing us to develope and test the reusable components easily.
 
-You can find and download [sample sources](https://github.com/adfsamples/PageTemplateADFLibrary) for this post. The sample sources consists of two applications - the `pagetemplates` application for the ADF Libarary containing the page template, and the `consumer` application that uses the page template from the ADF Library: 
+You can find and download [sample sources](https://github.com/adfsamples/PageTemplateADFLibrary) for this post. The sample sources consists of two applications - the `pagetemplates` application for the ADF Library containing the page template, and the `consumer` application that uses the page template from the ADF Library: 
 
 ![Image: Sample Applications]({{ site.data.config.download_url }}/{{ page.id }}/sample-applications.png)
 

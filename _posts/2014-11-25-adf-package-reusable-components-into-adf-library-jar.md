@@ -13,7 +13,7 @@ In this post, taking page templates as an example, I'll be talking about a pract
 
 You can find and download [sample sources](https://github.com/adfsamples/PageTemplateADFLibrary) for this post. The sample sources consists of two applications - the `pagetemplates` application for the ADF Library containing the page template, and the `consumer` application that uses the page template from the ADF Library: 
 
-![Image: Sample Applications]({{ site.data.config.download_url }}/{{ page.id }}/sample-applications.png)
+![Image: Sample Applications]({{ site.baseurl }}{{ page.id }}/sample-applications.png)
 
 To create ADF page templates as reusable components, we start from an ADF ViewController project. In the sample applications, the `pagetemplates-webapp` project in the `pagetemplates` application is such an ADF ViewController project. It uses the popular Bootstrap framework to create a very simple page template. We can test the page template with test pages in the root directory of web contents.
 
@@ -25,15 +25,15 @@ To get a clean ADF Library JAR without making testing a nightmare, instead of de
 
 In the sample application, the `pagetemplates-adflib` project is created as an ADF ViewController project for this purpose. Once the project is created, its project source paths are set to point to the respective ones in the `pagetemplates-webapp` project, and choose to include or exclude selected files or folders for the current project.Particularly, In the **Project Source Paths** window, it looks like this:
 
-![Image: Project Properties / Project Source Paths]({{ site.data.config.download_url }}/{{ page.id }}/project-source-paths.png)
+![Image: Project Properties / Project Source Paths]({{ site.baseurl }}{{ page.id }}/project-source-paths.png)
 
 And in the **Project Source Paths: Web Application** window, the setting is as follow:
 
-![Image: Project Properties / Project Source Paths: Web Application]({{ site.data.config.download_url }}/{{ page.id }}/project-source-paths-web-application.png)
+![Image: Project Properties / Project Source Paths: Web Application]({{ site.baseurl }}{{ page.id }}/project-source-paths-web-application.png)
 
 Finally, create an ADF Library JAR deployment profile for the `pagetemplates-adflib` project:
 
-![Image: Project Properties / Deployment]({{ site.data.config.download_url }}/{{ page.id }}/deployment.png)
+![Image: Project Properties / Deployment]({{ site.baseurl }}{{ page.id }}/deployment.png)
 
 **Note:** the deploy folder is configured intentionally under the root folder containing the sample applications.
 

@@ -15,25 +15,25 @@ If you are using Oracle JDeveloper and ADF with some version control system, suc
 The `.data/` directory is the application storage directory used by the **IDE Performance Cache** feature. For each application, you can specify a directory where application-specific caches and indexes used by JDeveloper are stored. To customize the location of the directory, open the **Application Properties** dialog, then go to the **IDE Performance Cache** page.
 
 
-![Image: IDE Performance Cache]({{ site.data.config.download_url }}{{ page.id }}/ide-performance-cache.png)
+![Image: IDE Performance Cache]({{ site.baseurl }}{{ page.id }}/ide-performance-cache.png)
 
 
 The default location is the root directory of the application:
 
 
-![Image: IDE Performance Cache]({{ site.data.config.download_url }}{{ page.id }}/ide-performance-cache-data.png)
+![Image: IDE Performance Cache]({{ site.baseurl }}{{ page.id }}/ide-performance-cache-data.png)
 
 
 The `temp/` directory is used for ADF styles caching. It gets created under the `WEB-INF/` directory in the web content directory of the view project, when you open a page or page fragment in the design mode in JDeveloper.
 
 
-![Image: ADF Styles caching]({{ site.data.config.download_url }}{{ page.id }}/adf-styles-cache.png)
+![Image: ADF Styles caching]({{ site.baseurl }}{{ page.id }}/adf-styles-cache.png)
 
 
 The `classes/` directory is the default Output Directory for the project. It can be customized in the Project Properties dialog, Project Source Paths page.
 
 
-![Image: Project Source Paths]({{ site.data.config.download_url }}{{ page.id }}/project-source-paths.png)
+![Image: Project Source Paths]({{ site.baseurl }}{{ page.id }}/project-source-paths.png)
 
 
 The `cwallet.sso.lck` file is the lock file for the `wallet.sso` file which is a part of **Oracle Credential Store Framework**.

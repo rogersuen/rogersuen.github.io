@@ -15,8 +15,23 @@
 }
 
 .rs-home-updates h2 {
+	color: #666;
 	font-size: 18px;
+	font-weight: 200;
 	margin-bottom: 20px;
+}
+
+.rs-home-updates-blog {
+	padding-left: 40px;		
+}
+
+.rs-home-updates-blog > .fi-rss {
+	position: absolute;
+	top: 12px;
+	left: 15px;
+	font-size: 35px;
+	line-height: 35px;
+	color: #999;
 }
 
 .rs-home-updates-blog ul {

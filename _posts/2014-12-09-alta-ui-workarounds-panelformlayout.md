@@ -2,7 +2,7 @@
 title: Alta UI Workarounds - panelFormLayout
 tags: ["Alta UI", "ADF Skin", "ADF 12.1.3", ADF, "ADFSamples", "AltaUIWorkarounds"]
 excerpt: 
-  When working with Alta UI skin, we can achieve better vertical alignment and distribution by unifying line-height and the vertical paddings of the panelFormLayout component. 
+  When working with Alta UI skin, we can achieve better vertical alignment and distribution by unifying vertical-align, line-height and the vertical paddings of the panelFormLayout component. 
 ---
 After days of hard working to fix issues of vertical alignment and distribution between different components in a complex form, I realized I need a unified solution, instead of ad-hoc, case by case pixel tuning for Oracle Alta UI skin. This is the second post on Alta UI Workarounds, but it would be first in the table of content of the series. We start from the `panelFormLayout` component.
 

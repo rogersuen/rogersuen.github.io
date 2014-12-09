@@ -77,11 +77,11 @@ af|selectOneRadio::content {
 
 Here's the display result of the sample page with Alta UI:
 
-![Image: panelFormLayout with Alta UI]({{ site.baseurl }}{{ page.id }}/panelformLayout-alta.png)
+![Image: panelFormLayout with Alta UI]({{ site.baseurl }}{{ page.id }}/panelformlayout-alta.png)
 
 This is the result from the extended UI skin:
 
-![Image: panelFormLayout with Alta UI Workarounds]({{ site.baseurl }}{{ page.id }}/panelformLayout-alta-workarounds.png)
+![Image: panelFormLayout with Alta UI Workarounds]({{ site.baseurl }}{{ page.id }}/panelformlayout-alta-workarounds.png)
 
 The workaround looks better. It perfectly lines up components and labels horizontally, distribute components vertically, and it works in a consistent way for different components and layouts.
 

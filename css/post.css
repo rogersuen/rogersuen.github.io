@@ -73,7 +73,7 @@
 	font-weight: 500;
 }
 
-.rs-post pre {
+.rs-post-content pre {
 	border: 1px solid #eee;
 	border-radius: 0;
 	border-left: 6px solid #ff5d1c;

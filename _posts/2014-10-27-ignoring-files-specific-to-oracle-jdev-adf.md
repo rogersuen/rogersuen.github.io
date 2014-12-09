@@ -1,7 +1,6 @@
 ---
 title: Ignoring Files Specific to Oracle JDeveloper & ADF
 tags: [ADF, JDeveloper, "Version Control", Git, Subversion]
-blogger_url: /2014/10/ignoring-files-specific-to-oracle-jdev-adf.html
 excerpt: 
   Minimum list of untracked files specific to Oracle JDeveloper and ADF for the .gitignore file of Git or similar ignore files used by other version control system, such as Subversion and CVS.
 ---
@@ -10,6 +9,8 @@ If you are using Oracle JDeveloper and ADF with some version control system, suc
     .data/
     temp/
     classes/
+    deploy/
+    javadoc/
     cwallet.sso.lck
 
 The `.data/` directory is the application storage directory used by the **IDE Performance Cache** feature. For each application, you can specify a directory where application-specific caches and indexes used by JDeveloper are stored. To customize the location of the directory, open the **Application Properties** dialog, then go to the **IDE Performance Cache** page.
@@ -30,11 +31,18 @@ The `temp/` directory is used for ADF styles caching. It gets created under the 
 ![Image: ADF Styles caching]({{ site.baseurl }}{{ page.id }}/adf-styles-cache.png)
 
 
-The `classes/` directory is the default Output Directory for the project. It can be customized in the Project Properties dialog, Project Source Paths page.
+The `classes/` directory is the default Output Directory for the project. It can be customized in the **Project Properties** dialog, **Project Source Paths** page.
 
 
 ![Image: Project Source Paths]({{ site.baseurl }}{{ page.id }}/project-source-paths.png)
 
+The `deploy/` directory is the default output directory for the archives generated from deployment profiles defined for the project. You can customize it in the **Edit Deployment Profile Properties** window, like this:
+
+![Image: Deployment Profile Properties]({{ site.baseurl }}{{ page.id }}/deployment-profile-properties.png)
+
+The `javadoc` directory is the default output directory for javadocs, defined in the **Javadoc** page of the **Project Properties** window.
+
+![Image: Deployment Profile Properties]({{ site.baseurl }}{{ page.id }}/javadoc.png)
 
 The `cwallet.sso.lck` file is the lock file for the `wallet.sso` file which is a part of **Oracle Credential Store Framework**.
 

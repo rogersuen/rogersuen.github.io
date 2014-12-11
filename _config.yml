@@ -9,6 +9,8 @@ permalink: /:year/:month/:title.html
 kramdown:
   input: GFM
 
+markdown: redcarpet
+
 defaults:
   -
     scope:

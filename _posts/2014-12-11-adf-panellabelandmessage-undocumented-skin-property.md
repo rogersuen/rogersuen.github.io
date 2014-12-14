@@ -1,7 +1,7 @@
 ---
 title: ADF - panelLabelAndMessage's undocumented skin property
 tags: [ADF Skin, ADF 12.1.3, ADF]
-excerpt: 
+excerpt: introducing an undocumented ADF Skin property "-tr-output-content-padding" used by the panelLabelAndMessage component to generate an HTML inline style for non-input content， adding leading padding, so that they align properly with input content.
 ---
 
 When working on the skinning of the `panelLabelAndMessage` component, you may have noticed a special skinning technique used for this component. For example, from a simple snippet below: 
@@ -43,6 +43,10 @@ af|panelLabelAndMessage {
   -tr-inhibit: -tr-output-content-padding;
 }
 ```
+
+**Chinese Summary:**
+
+ADF 在 组件 `panelLabelAndMessage` 的皮肤中，使用了一个没有正式文档的 ADF 皮肤属性 `"-tr-output-content-padding"` 用以为 `panelLabelAndMessage` 的非输入型内容生成 HTML 的内联样式，添加前置留白，从而方便其与输入型的内容对齐。
 
 **Resources:**
 

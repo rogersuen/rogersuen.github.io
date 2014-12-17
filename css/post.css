@@ -83,6 +83,11 @@
 	padding: 10px;
 }
 
+.rs-post-content blockquote {
+	font-size: 100%;
+	font-style: italic;
+}
+
 .rs-post-footer {
 	margin-top: 15px;
 	margin-bottom: 15px; 	

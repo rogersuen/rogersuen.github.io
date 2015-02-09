@@ -50,7 +50,5 @@ Check out the log file, the warning about the NodeManager native library could n
 **Resources:**
 
 * [Node Manager Implementations](http://docs.oracle.com/middleware/1213/wls/NODEM/overview.htm#NODEM114)
-
 * [Reviewing nodemanager.properties](http://docs.oracle.com/middleware/1213/wls/NODEM/java_nodemgr.htm#NODEM178)
-
 * [3.2 Starting the Servers](http://docs.oracle.com/middleware/1213/core/WLSIG/create_domain.htm#WLSIG298)

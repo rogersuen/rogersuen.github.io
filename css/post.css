@@ -44,7 +44,8 @@
 	font-weight: 300;	
 }
 
-.rs-post p {
+.rs-post p,
+.rs-post li {
 	color: #666;
 	line-height: 24px;
 	font-weight: 300;

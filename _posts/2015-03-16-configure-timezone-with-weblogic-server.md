@@ -8,7 +8,7 @@ In order to properly handle the date and time data in your ADF applications, you
 * Configure the default time zone for &lt;af:convertDateTime&gt; used by input and output components.
 * Configure the time zone that affects how Oracle JDBC driver handles the data and time data.
 
-This post introduces how to configure the time zone with an integrated or a standalone WebLogic Server, or the ADF Model Tester. A couple of upcoming posts will cover more time zone information useful for processing date and time in an ADF application.
+This post introduces how to configure the time zone with an integrated or a standalone WebLogic Server, or the ADF Model Tester. 
 
 ## Integrated WebLogic Server and ADF Model Tester
 

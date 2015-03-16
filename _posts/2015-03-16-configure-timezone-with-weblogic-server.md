@@ -3,7 +3,7 @@ title: Configuring the Time Zone with WebLogic Server
 tags: [Time Zone, WebLogic, ADF Model Tester, ADF]
 excerpt: This post introduces how to configure the time zone with an integrated or a standalone Oracle WebLogic Server and Oracle ADF Model Tester.
 ---
-In order to properly handle the date and time data in your ADF applications, you probably need to configure the WebLogic Server time zone. The reasons for which you do this might include but not be limited to:
+In order to properly handle the date and time data in your ADF applications, you probably need to configure the WebLogic Server time zone, for the reasons including but not limited to:
 
 * Configure the default time zone for &lt;af:convertDateTime&gt; used by input and output components.
 * Configure the time zone that affects how Oracle JDBC driver handles the data and time data.

@@ -61,6 +61,7 @@
 	font-weight: 300;
 }
 
+.rs-post li code,
 .rs-post p code {
 	color: #666;
 	background-color: #f0f0f0;

@@ -1,7 +1,7 @@
 ---
 title: ADF - Time Zone for af:convertDateTime
 tags: [Time Zone, DateTimeConverter, convertDateTime, ADF Faces, ADF]
-excerpt: This post introduces in detail that how the ADF Faces DateTimeConverter and the af:convertDateTime tag work with the time zone configuration.
+excerpt: This post introduces in detail that how date values are processed in ADF Faces and how the ADF Faces DateTimeConverter and the af:convertDateTime tag work with the time zone configuration.
 ---
 
 In the [last post]({% post_url 2015-03-16-configure-timezone-with-weblogic-server %})

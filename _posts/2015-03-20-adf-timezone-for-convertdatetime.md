@@ -86,3 +86,4 @@ In the ADF 11g, the `timeZone` attribute is documented as this:
 ## Resources
 
 * [ADF RichClient API - `<af:convertDateTime>`](https://docs.oracle.com/middleware/1213/adf/tag-reference-faces/tagdoc/af_convertDateTime.html)
+* [A.6.2.3 Time Zone and Year](http://docs.oracle.com/middleware/1213/adf/develop-faces/adf-faces-configuration.htm#ADFUI602)

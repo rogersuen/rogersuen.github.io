@@ -9,7 +9,7 @@ In the [last post]({% post_url 2015-03-16-configure-timezone-with-weblogic-serve
 
  Here you can find the [Source Code](https://github.com/adfsamples/TimeZoneForConvertDateTime) of the sample application or [Download ZIP](https://github.com/adfsamples/TimeZoneForConvertDateTime/archive/master.zip) of it.
 
-![Image: ADF Samples - Time Zone for <af:convertDateTime>]({{ site.baseurl }}{{ page.id }}/sample-app.png)
+![Image: ADF Samples - Time Zone for af:convertDateTime]({{ site.baseurl }}{{ page.id }}/sample-app.png)
 
 To make it easier, I'm using `java.util.Date` in the discussion and the sample application, and Oracle data type `DATE` in some figures. The basic idea applies to `java.sql.Date`, etc.
 
@@ -19,7 +19,7 @@ In Java, the class `java.util.Date` represents a specific point in time. As per 
 
 Clearly, the class `Date` represents a determinate point in time which is in the time zone GMT. To display a `Date`, we need a converter or a formatter to turn the `Date` into a `String` which represents the "wall clock time" local to a specific time zone. When the target time zone changes, the resulting `String` or the "wall clock time" could change, but the value of the `Date` does not change in this process.
 
-The following figure illustrats how the date and time date passes through a typical ADF application:
+The following figure illustrates how the date and time data passes through a typical ADF application:
 
 ![Image: Date Data Handling]({{ site.baseurl }}{{ page.id }}/date-handling.png)
 
@@ -43,7 +43,7 @@ When an ADF Faces component works with a `DateTimeConverter`, a `java.util.TimeZ
 	    	timeZone="#{userBean.inputTimeZone}"/>
 	</af:inputText>
 
-Here's the description from [ADF RichClient API - `<af:convertDateTime>`](https://docs.oracle.com/middleware/1213/adf/tag-reference-faces/tagdoc/af_convertDateTime.html):
+Here's the description from [ADF RichClient API - `<af:convertDateTime>`](https://docs.oracle.com/middleware/1213/adf/tag-reference-faces/tagdoc/af_convertDateTime.html) for the `timeZone` attribute:
 
 > Time zone in which to interpret any time information in the date string. If not set here, picks this value from trinidad-config.xml configuration file. If not defined there, then it is defaulted to the value returned by TimeZone.getDefault(), which is usually server JDK timezone.
 
@@ -67,7 +67,7 @@ This post covers how the time zones participate in the date values processing in
 
 ## Special Note for the ADF prior to 12c
 
-In the ADF 11g, the `timeZone` attribute is documented as this:
+In the ADF 11g, the `timeZone` attribute of the `af:convertdateTime` is documented as this:
 
 > Time zone in which to interpret any time information in the date string. If not set here, picks this value from adf-faces-config.xml configuration file. If not defined there, then **it is defaulted to GMT**.
 

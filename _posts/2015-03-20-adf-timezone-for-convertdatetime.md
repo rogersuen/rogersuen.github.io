@@ -71,6 +71,8 @@ In the ADF 11g, the `timeZone` attribute of the `af:convertdateTime` is document
 
 > Time zone in which to interpret any time information in the date string. If not set here, picks this value from adf-faces-config.xml configuration file. If not defined there, then **it is defaulted to GMT**.
 
+{% include index-series-time-zone.md %}
+
 ## Sample Application
 
 * [Source Code](https://github.com/adfsamples/TimeZoneForConvertDateTime)

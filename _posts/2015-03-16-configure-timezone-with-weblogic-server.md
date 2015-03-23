@@ -42,10 +42,11 @@ Please note that the Launch Settings of the Application Server Properties are us
 
 **Caution:** when the server starts with no application selected, and then open the application and run it against the server, the Launch Settings defined in the Application Server Properties will be used; the Java Options defined in the run configuration of the project will be ignored.
 
-
 ## Standalone WebLogic Server
 
 To configure the time zone with a standalone WebLogic Server instance, if you use a WebLogic Server script to start servers, you can edit the `JAVA_OPTIONS` in the script to set the system property, see "[Specifying Java Options for a WebLogic Server Instance](http://docs.oracle.com/middleware/1213/wls/START/overview.htm#START138)"; if you use the Node Manager to start servers, you can set Java Options for each server instance in the Oracle WebLogic Server Administration Console, see "[Set Java options for servers started by Node Manager](http://docs.oracle.com/middleware/1213/wls/WLACH/taskhelp/startstop/SetJavaOptionsForServersStartedByNodeManager.html)".
+
+{% include index-series-time-zone.md %}
 
 ## Resources:
 

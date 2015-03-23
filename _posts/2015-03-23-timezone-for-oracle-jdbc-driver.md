@@ -44,6 +44,8 @@ Here is how this method works:
 
 In summary, Oracle JDBC Driver interprets the date values retrieved from the database as in the time zone of the Java VM by default. The values that are actually loaded into the Java `Date` values may vary depending on your Java VM, and vice versa.
 
+{% include index-series-time-zone.md %}
+
 ## Environment
 
 * JDeveloper 12.1.3.0.0 Build JDEVADF_12.1.3.0.0_GENERIC_140521.1008.S
